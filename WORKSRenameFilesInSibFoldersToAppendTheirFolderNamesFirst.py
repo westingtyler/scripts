@@ -1,5 +1,10 @@
+# made by westingtyler with ChatGPT's help on 2023.06.01 at 10:11 AM.
+# https://github.com/westingtyler/scripts/tree/main
+# https://www.youtube.com/channel/UCdJHTLc_M3CIssLVmykWn_w
+# I hope to add a description HERE soon for what this script does, and hopefully a link to a youtube tutorial I will have made, demonstrating the script's proper use.
+
 import os
-#made by westingtyler with ChatGPT's help circa 2023.05.01
+
 def rename_files_in_folder(folder_path):
     folder_name = os.path.basename(folder_path)
     for root, _, files in os.walk(folder_path):
