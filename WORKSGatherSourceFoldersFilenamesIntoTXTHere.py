@@ -10,7 +10,8 @@ def get_filenames_without_extension(folder_path):
     return [os.path.splitext(filename)[0] for filename in filenames]
 
 def main():
-    root_folder = r"C:\Users\Administrator\Desktop\NotSS Capital Data\food potion\ms food\refset"
+#!!!!!REPLACE THE EXAMPLE PATH BELOW AS NEEDED.!!!!
+    root_folder = r"C:\Users\USERNAME\Desktop\foldername\food potion\ms food\refset"
 
     with open("filenames.txt", "w") as file:
         for subfolder, _, filenames in os.walk(root_folder):
