@@ -1,7 +1,7 @@
 # made by westingtyler with ChatGPT's help on 2023.06.01 at 10:23 AM.
 # https://github.com/westingtyler/scripts/tree/main
 # https://www.youtube.com/channel/UCdJHTLc_M3CIssLVmykWn_w
-# I used this on my folder full of food SD generations that did not have their names at the start of their filenames. drop into the folder with the pngtxt pairs, ensure the words are specified below that you want to get the name after, and when clicked it will rename them and make new folders if needed to sort them into. this means you need to ensure your prompts ALL have a string after which the name of the item is typed. in this case it was "delicious savory". you might need to ensure it's two words, not one or three.
+# I used this on my folder full of food SD generations that did not have their names at the start of their filenames. drop into the folder with the pngtxt pairs, ensure the words are specified below that you want to get the name after (if you only want it to return one word, put a period in the prompt after it.), and when clicked it will rename them and make new folders if needed to sort them into. this means you need to ensure your prompts ALL have a string after which the name of the item is typed. in this case it was "delicious savory". you might need to ensure it's two words, not one or three.
 #I hope to add a link to a youtube tutorial I will have made, demonstrating the script's proper use.
 
 import os
