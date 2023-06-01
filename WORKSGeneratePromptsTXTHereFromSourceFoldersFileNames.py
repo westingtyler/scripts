@@ -17,7 +17,8 @@ def packaging_prompt(folder, file):
     return "a studio of uncropped delicious savory " + file.split(".")[0] + " in its packaging. photorealistic."
 
 def main():
-    SourcePath = 'C:\\Users\\Administrator\\Desktop\\NotSS Capital Data\\food potion candy\\ms food\\refset'
+#!!!!!REPLACE THE EXAMPLE PATH BELOW AS NEEDED.!!!!
+    SourcePath = 'C:\\Users\\USERNAME\\Desktop\\foldername\\food potion candy\\ms food\\refset'
     with open('filenamestoprompts.txt', 'w') as f:
         for root, dirs, files in os.walk(SourcePath): # if SourcePath ends up not working next time this script is used, change both instance back to path
                 folder = root.split('\\')[-1].upper()
