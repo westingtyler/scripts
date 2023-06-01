@@ -1,6 +1,11 @@
+# made by westingtyler with ChatGPT's help on 2023.06.01 at 10:11 AM.
+# https://github.com/westingtyler/scripts/tree/main
+# https://www.youtube.com/channel/UCdJHTLc_M3CIssLVmykWn_w
+# I hope to add a description HERE soon for what this script does, and hopefully a link to a youtube tutorial I will have made, demonstrating the script's proper use.
+
 from PIL import Image
 import os
-#made by westingtyler with ChatGPT's help circa 2023.05.01
+
 # Get all the .png files in the current directory
 png_files = [f for f in os.listdir('.') if f.endswith('.png')]
 
