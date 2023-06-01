@@ -28,6 +28,7 @@ def mirror_subfolders_as_empties(source_parent_folder_to_emptyfoldermirror):
 
 
 if __name__ == '__main__':
-    source_parent_folder_to_emptyfoldermirror = r"C:\Users\Administrator\Desktop\NotSS Capital Data\food potion candy\ms food\refset"
+    #!!!!!REPLACE THE EXAMPLE PATH BELOW AS NEEDED.!!!!
+    source_parent_folder_to_emptyfoldermirror = r"C:\Users\USERNAME\Desktop\foldername\food potion candy\ms food\refset"
     mirror_subfolders_as_empties(source_parent_folder_to_emptyfoldermirror)
 
