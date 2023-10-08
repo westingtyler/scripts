@@ -12,6 +12,12 @@
  * @help This plugin allows you to control the zoom level in your RPG Maker 
  * MV game using the mouse scroll wheel.  
  * 
+ * DISCLAIMER:
+ * This script is simple, but it's provided AS IS with no warranties.
+ * I'm not much of a programmer, so I probably cannot help with 
+ * troubleshooting, but I know it works great for my installation of
+ * RPG Maker MV.
+ 
  * DEPENDENCIES:
  * This script requires that Galv's Screen Zoom script is installed in a 
  * plugin, probably above this one in the plugin manager. Tested with 
